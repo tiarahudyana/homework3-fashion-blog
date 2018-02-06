@@ -1,0 +1,98 @@
+.article-text, aside p {
+  font-size: 16px;
+}
+
+.aside-title {
+  color: #A6A6A6;
+}
+aside {
+  float: right;
+  display: inline-block;
+  padding: 65px 0 0 0;
+}
+
+aside li{
+  text-decoration: none;
+  font-size: 16px;
+  color: red;
+}
+
+
+body {
+  font-family: "Avenir Light", Avenir;
+  padding: 0 30px;
+}
+
+.first-letter {
+  font-size: 80px;
+  font-color: #A6A6A6;
+  float: left;
+  font-weight: lighter;
+  margin-right: 15px;
+  line-height: 1;
+}
+footer a {
+  text-decoration: none;
+  font-size: 16px;
+  color: red;
+}
+
+footer p {
+  color: #A6A6A6;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+nav a {
+  padding: 9px 30px;
+  background-color: black;
+  border: 1px solid gray;
+  color: white;
+  width: 100%;
+  display: inline;
+  margin: 0;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 600px 250px;
+  grid-template-row: 500px 500px;
+  grid-gap: 2rem;
+}
+
+.main-content a, aside a {
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+span {
+  color: #A6A6A6;
+  font-size: 20px;
+}
+#title {
+  color: red;
+  font-size: 45px;
+}
+
+
+.date {
+  color: #A6A6A6;
+  font-size: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+.article-title {
+  color: black;
+  font-size: 30px;
+  margin: 0px 0px;
+}
+
+li {
+  text-decoration: none;
+}
